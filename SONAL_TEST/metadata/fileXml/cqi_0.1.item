@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:XmlFileConnection Encoding="UTF-8" XmlFilePath="C:/Users/sonal/Downloads/CQI_FFV.xml" dataPackage="_ZgkZFYXlEey9O8hJxz_uwA" fileContent="3C44534A4F423E0D0A3C44535245434F5244204964656E7469666965723D22524F4F5422204F4C45547970653D22434A6F624465666E2220526561646F6E6C793D223022204E616D653D226A705F4351495F4646565F52657475726E5F4C6F616422204E65787449443D22312220436F6E7461696E65723D22563022204A6F6256657273696F6E3D2235362E302E302220436F6E74726F6C4166746572537562723D22302220506172616D65746572733D2243506172616D6574657273223E0D0A3C44535355425245434F52443E0D0A3C4E616D653E222454444154415F4449524543544F52223C2F4E616D653E0D0A3C50726F6D70743E2254444154415F4449524543544F52223C2F50726F6D70743E0D0A3C44656661756C743E222450524F4A444546223C2F44656661756C743E0D0A3C506172616D547970653E2230223C2F506172616D547970653E0D0A3C506172616D4C656E6774683E2230223C2F506172616D4C656E6774683E0D0A3C506172616D5363616C653E2230223C2F506172616D5363616C653E0D0A3C4F776E65723E22415054223C2F4F776E65723E0D0A3C56616C75653E3130303C2F56616C75653E0D0A3C2F44535355425245434F52443E0D0A3C2F44535245434F52443E0D0A3C2F44534A4F423E" inputModel="false" name="cqi" xmi:id="_ZgkZAIXlEey9O8hJxz_uwA">
+    <root Attribute="main" Order="1" RelatedColumn="" Type="id_String" XMLPath="/DSJOB" xmi:id="_ZgkZAYXlEey9O8hJxz_uwA"/>
+    <root Attribute="main" Order="1" RelatedColumn="" Type="id_String" XMLPath="/DSJOB/DSRECORD" xmi:id="_ZgkZAoXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="2" RelatedColumn="Identifier" Type="id_String" XMLPath="Identifier" xmi:id="_ZgkZA4XlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="3" RelatedColumn="OLEType" Type="id_String" XMLPath="OLEType" xmi:id="_ZgkZBIXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="4" RelatedColumn="Readonly" Type="id_Integer" XMLPath="Readonly" xmi:id="_ZgkZBYXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="5" RelatedColumn="Name" Type="id_String" XMLPath="Name" xmi:id="_ZgkZBoXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="6" RelatedColumn="NextID" Type="id_Integer" XMLPath="NextID" xmi:id="_ZgkZB4XlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="7" RelatedColumn="Container" Type="id_String" XMLPath="Container" xmi:id="_ZgkZCIXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="8" RelatedColumn="JobVersion" Type="id_String" XMLPath="JobVersion" xmi:id="_ZgkZCYXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="9" RelatedColumn="ControlAfterSubr" Type="id_Integer" XMLPath="ControlAfterSubr" xmi:id="_ZgkZCoXlEey9O8hJxz_uwA"/>
+    <root Attribute="attri" Order="10" RelatedColumn="Parameters" Type="id_String" XMLPath="Parameters" xmi:id="_ZgkZC4XlEey9O8hJxz_uwA"/>
+    <loop Attribute="main" Order="11" RelatedColumn="" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD" xmi:id="_ZgkZDIXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="12" RelatedColumn="Name1" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/Name" xmi:id="_ZgkZDYXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="13" RelatedColumn="Prompt" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/Prompt" xmi:id="_ZgkZDoXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="14" RelatedColumn="Default" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/Default" xmi:id="_ZgkZD4XlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="15" RelatedColumn="ParamType" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/ParamType" xmi:id="_ZgkZEIXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="16" RelatedColumn="ParamLength" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/ParamLength" xmi:id="_ZgkZEYXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="17" RelatedColumn="ParamScale" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/ParamScale" xmi:id="_ZgkZEoXlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="18" RelatedColumn="Owner" Type="id_String" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/Owner" xmi:id="_ZgkZE4XlEey9O8hJxz_uwA"/>
+    <loop Attribute="branch" Order="19" RelatedColumn="Value" Type="id_Integer" XMLPath="/DSJOB/DSRECORD/DSSUBRECORD/Value" xmi:id="_ZgkZFIXlEey9O8hJxz_uwA"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_ZgkZAIXlEey9O8hJxz_uwA" name="default" xmi:id="_ZgkZFYXlEey9O8hJxz_uwA">
+    <ownedElement id="_QoV0EIXlEey9O8hJxz_uwA" label="metadata" xmi:id="_ZgkZFoXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Identifier" name="Identifier" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZF4XlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OLEType" name="OLEType" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZGIXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Readonly" length="-1" name="Readonly" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZGYXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Name" name="Name" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZGoXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NextID" length="-1" name="NextID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZG4XlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Container" name="Container" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZHIXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="JobVersion" name="JobVersion" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZHYXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ControlAfterSubr" length="-1" name="ControlAfterSubr" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZHoXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Parameters" name="Parameters" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZH4XlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Name1" name="Name" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZIIXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Prompt" name="Prompt" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZIYXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Default" name="Default" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZIoXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ParamType" name="ParamType" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZI4XlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ParamLength" name="ParamLength" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZJIXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ParamScale" name="ParamScale" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZJYXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Owner" name="Owner" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZJoXlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Value" length="-1" name="Value" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ZgkZJ4XlEey9O8hJxz_uwA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f967d57b-3b0c-44b0-acbd-ef45f58db7f7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>smYIrOPp3DrrrqhQjQQYA7dssPE7wxiEqarGndw355teXLl54Eoj0TiohXz3B/OZKW3rznVycYe6&#13;
+pLXz65ZzGw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a0bbfa77-c6b1-4734-9b0c-cb9b6e53bbf3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UU1Rxir3BK1fi3b+8ooEDhknklXXxOq6izTPmsMxxJmGir3RWCEfr00baPuu6ZOlPWC2O4yKTLWC&#13;
+s/0zeWC+ZQ==</DigestValue></Reference></SignedInfo><SignatureValue>hdHKbUUR2ceK0SFpDWvpAuoU882gBG1Dq9ulxbrngpo88ZX23rQ1mBBAGbr6hGgBHIt7pzoFrogJ&#13;
+hjwiZm1O0mU0QsrmzBM9pKXe1J9SE+Cb/lxvRa8Fpw/oxMCebK0+G67Ijp0fIqf5+E1rHQkBT+HW&#13;
+3A5Z0xmfcQW2GGJa5Fi6ePEUM8A5tuZqB7tAAJbzqrS0aOSx0NHlAx8nWnWODzsxVg5ehImyxurT&#13;
+Y2ZpPOf3cduSxtPjxRRtaicvl6ZnzsWOYX53PIRIi2RzXNPUDn9FXdvINaOrxlAHMAZg9lxMiN1E&#13;
+NRD58nycCM8S9cFq2m869OqAql+Crki5Tnc0wA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a0bbfa77-c6b1-4734-9b0c-cb9b6e53bbf3" Target="#_f967d57b-3b0c-44b0-acbd-ef45f58db7f7"><Timestamp>2022-03-01 17:31:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

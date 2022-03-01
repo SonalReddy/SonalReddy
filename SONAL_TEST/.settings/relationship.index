@@ -1,1 +1,40 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_jltdAIXlEey9O8hJxz_uwA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "__q2iwIXlEey9O8hJxz_uwA",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ZgOawIXlEey9O8hJxz_uwA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
