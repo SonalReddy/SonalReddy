@@ -10,6 +10,25 @@ Name "jp_CQI_FFV_Return_Load"
 NextID "1"
 StageType "CTransformerStage
 Container "V0"
+FullDescription =+=+=+=
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+--
+--   NAME:		jp_LOAD_DQM_FIRST_AVAIL
+--  DESCRIPTION: 	               This Job is used to load data from file  into main table  DQM_FIRST_AVAIL
+--  INPUT TABLES:	-              NA
+--  OUTPUT TABLES:            DQM_FIRST_AVAIL
+-  INPUT FILES :                    dqm_first_available.dat
+
+-- OUTPUT FILES :               
+------------------------------------------------------------------------------------------------------------------------------------------------
+--   AUTHOR:		Manish M
+--   CREATED:		25-Feb-2010
+--   VERSION:		1.0
+--   
+----------------------------------------------------------------------------------------------------------------------------------------------------
+--  Change History
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+=+=+=+=
 JobVersion "56.0.0"
 ControlAfterSubr "0"
 Parameters "CParameters"
