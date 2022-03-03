@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/CQI_FFV.xml' outStruct='Structures/Jobs/CQI_FFP/tHMap_1/xml_out.xml' inputRep='173' outputRep='178' nextMap='' inputStructUserName='CQI_FFV' outputStructUserName='xml_out' V1='4' name='tHMap_1' incarnation='3322'>
+<root t='190' id='1' V190='11' inStruct='Structures/CQI_FFV.xml' outStruct='Structures/Jobs/CQI_FFP/tHMap_1/xml_out.xml' inputRep='173' outputRep='178' nextMap='' inputStructUserName='CQI_FFV' outputStructUserName='xml_out' V1='4' name='tHMap_1' incarnation='3474'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='1138' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1059' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSJOB'>
@@ -194,31 +194,31 @@
       <loop>SimpleLoop(in$/root/DSJOB/DSRECORD,{Filter},{Sort Keys},{Contexts})</loop>
       <child t='200' id='42' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Identifier'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/Identifier</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Identifier)</value>
       </child>
       <child t='200' id='43' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OLEType'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/OLEType</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OLEType)</value>
       </child>
       <child t='200' id='45' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Name'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/Name</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Name)</value>
       </child>
       <child t='200' id='48' V200='8' structElemExists='true' usedCount='78' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='JobVersion'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/Jobversion</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Jobversion)</value>
       </child>
       <child t='200' id='83' V200='8' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Inputpins'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/Inputpins</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Inputpins)</value>
       </child>
       <child t='200' id='84' V200='8' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Outputpins'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/OutputPins</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OutputPins)</value>
       </child>
       <child t='200' id='89' V200='8' structElemExists='true' usedCount='13' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='StageType'>
         <mapNode t='190' idref='1'/>
-        <value>in$/root/DSJOB/DSRECORD/StageType</value>
+        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/StageType)</value>
       </child>
     </child>
   </outputMapElem>
