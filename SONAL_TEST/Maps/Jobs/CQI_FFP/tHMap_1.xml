@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/CQI_FFV.xml' outStruct='Structures/Jobs/CQI_FFP/tHMap_1/xml_out.xml' inputRep='173' outputRep='178' nextMap='' inputStructUserName='CQI_FFV' outputStructUserName='xml_out' V1='4' name='tHMap_1' incarnation='3474'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='1138' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
+<root t='190' id='1' V190='11' inStruct='Structures/CQI_FFV.xml' outStruct='Structures/Jobs/CQI_FFP/tHMap_1/xml_out.xml' inputRep='173' outputRep='178' nextMap='' inputStructUserName='CQI_FFV' outputStructUserName='xml_out' V1='4' name='tHMap_1' incarnation='3782'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='1147' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1059' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSJOB'>
+    <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1067' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSJOB'>
       <mapNode t='190' idref='1'/>
       <child t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
         <mapNode t='190' idref='1'/>
@@ -20,19 +20,19 @@
       <child t='200' id='75' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='1059' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSRECORD'>
+      <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='1067' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSRECORD'>
         <mapNode t='190' idref='1'/>
         <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>BEGIN DSRECORD</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Identifier'>
+        <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Identifier'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>Identifier</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OLEType'>
+        <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OLEType'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>OLEType</delimInitiator>
           <delimTerminator>\n</delimTerminator>
@@ -42,12 +42,12 @@
           <delimInitiator>Readonly</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Name'>
+        <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Name'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>Name</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='40' V200='8' input='true' structElemExists='true' usedCount='78' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Jobversion'>
+        <child t='200' id='40' V200='8' input='true' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Jobversion'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>JobVersion</delimInitiator>
           <delimTerminator>\n</delimTerminator>
@@ -142,17 +142,17 @@
           <delimInitiator>IsTemplate</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='79' V200='8' input='true' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Inputpins'>
+        <child t='200' id='79' V200='8' input='true' structElemExists='true' usedCount='27' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Inputpins'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>InputPins</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='80' V200='8' input='true' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OutputPins'>
+        <child t='200' id='80' V200='8' input='true' structElemExists='true' usedCount='27' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OutputPins'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>OutputPins</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='200' id='88' V200='8' input='true' structElemExists='true' usedCount='16' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='StageType'>
+        <child t='200' id='88' V200='8' input='true' structElemExists='true' usedCount='17' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='StageType'>
           <mapNode t='190' idref='1'/>
           <delimInitiator>StageType</delimInitiator>
           <delimTerminator>\n</delimTerminator>
@@ -186,39 +186,39 @@
       <delimInitiator>BEGIN DSSTAGETYPES</delimInitiator>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='32' V200='8' structElemExists='true' usedCount='1136' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='32' V200='8' structElemExists='true' usedCount='1145' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/root,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='41' V200='8' structElemExists='true' usedCount='1053' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='row'>
+    <child t='200' id='41' V200='8' structElemExists='true' usedCount='1061' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='row'>
       <mapNode t='190' idref='1'/>
       <loop>SimpleLoop(in$/root/DSJOB/DSRECORD,{Filter},{Sort Keys},{Contexts})</loop>
-      <child t='200' id='42' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Identifier'>
+      <child t='200' id='42' V200='8' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Identifier'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Identifier)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Identifier),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='43' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OLEType'>
+      <child t='200' id='43' V200='8' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='OLEType'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OLEType)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OLEType),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='45' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Name'>
+      <child t='200' id='45' V200='8' structElemExists='true' usedCount='80' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Name'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Name)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Name),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='48' V200='8' structElemExists='true' usedCount='78' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='JobVersion'>
+      <child t='200' id='48' V200='8' structElemExists='true' usedCount='79' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='JobVersion'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Jobversion)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Jobversion),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='83' V200='8' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Inputpins'>
+      <child t='200' id='83' V200='8' structElemExists='true' usedCount='27' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Inputpins'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Inputpins)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/Inputpins),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='84' V200='8' structElemExists='true' usedCount='26' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Outputpins'>
+      <child t='200' id='84' V200='8' structElemExists='true' usedCount='27' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Outputpins'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OutputPins)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/OutputPins),{Filter},{Sort Keys},{Contexts})</value>
       </child>
-      <child t='200' id='89' V200='8' structElemExists='true' usedCount='13' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='StageType'>
+      <child t='200' id='89' V200='8' structElemExists='true' usedCount='14' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='StageType'>
         <mapNode t='190' idref='1'/>
-        <value>AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/StageType)</value>
+        <value>SimpleLoop(AgConcatFirstPresentValue(in$/root/DSJOB/DSRECORD/StageType),{Filter},{Sort Keys},{Contexts})</value>
       </child>
     </child>
   </outputMapElem>
