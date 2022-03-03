@@ -8,6 +8,7 @@ OLEType "CJobDefn"
 Readonly "0"
 Name "jp_CQI_FFV_Return_Load"
 NextID "1"
+StageType "CTransformerStage
 Container "V0"
 JobVersion "56.0.0"
 ControlAfterSubr "0"
