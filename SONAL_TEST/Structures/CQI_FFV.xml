@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x17ebcf243b6' V1='4' name='CQI_FFV' incarnation='766'>
+<root t='150' id='1' V150='13' creationTimestamp='0x17ebcf243b6' V1='4' name='CQI_FFV' incarnation='832'>
   <rootElem t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='root'>
     <structNode t='150' idref='1'/>
     <child t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSJOB'>
@@ -20,7 +20,7 @@
       <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER'>
         <structNode t='150' idref='1'/>
       </child>
-      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSRECORD' checksumValid='true' checksum='5T7NetYis3F5V4kKsB/OyM6G4r0='>
+      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSRECORD' checksumValid='true' checksum='PHQnkVLBMA2rlY+BwMZOsDaTYkk='>
         <structNode t='150' idref='1'/>
         <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
           <structNode t='150' idref='1'/>
@@ -62,7 +62,7 @@
           <delimInitiator>ParameterValues</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='167' id='36' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSSUBRECORD' checksumValid='true' checksum='PrhuyPj3ym60U0A8FD2pvDAyJMc='>
+        <child t='167' id='36' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DSSUBRECORD' checksumValid='true' checksum='HRKNSTgiRN0vk+Cihr4vVE0M8jw='>
           <structNode t='150' idref='1'/>
           <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HEADER'>
             <structNode t='150' idref='1'/>
@@ -112,7 +112,6 @@
           <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value'>
             <structNode t='150' idref='1'/>
             <delimInitiator>Value</delimInitiator>
-            <delimTerminator>END DSSUBRECORD</delimTerminator>
           </child>
           <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
             <structNode t='150' idref='1'/>
@@ -157,14 +156,23 @@
           <delimInitiator>StageType</delimInitiator>
           <delimTerminator>\n</delimTerminator>
         </child>
-        <child t='167' id='72' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
-          <structNode t='150' idref='1'/>
-          <delimInitiator>END DSRECORD</delimInitiator>
-        </child>
         <child t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NextID'>
           <structNode t='150' idref='1'/>
           <delimInitiator>NextID</delimInitiator>
           <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Description'>
+          <structNode t='150' idref='1'/>
+          <delimInitiator>Description</delimInitiator>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FullDescription'>
+          <structNode t='150' idref='1'/>
+          <delimInitiator>FullDescription</delimInitiator>
+        </child>
+        <child t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
+          <structNode t='150' idref='1'/>
+          <delimInitiator>END DSRECORD</delimInitiator>
         </child>
       </child>
       <child t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FOOTER'>
@@ -185,7 +193,7 @@
     </child>
   </child>
   <child t='165' id='5' V1='4' name='Document Bindings'>
-    <child t='166' id='6' V166='5' docType='1' docReposPath='/LOCAL_PROJECT/Sample Data/CQI_FFV/CQI_FFV_sample.txt' V1='4' name='/root'>
+    <child t='166' id='6' V166='5' docType='1' docReposPath='/SONAL_TEST/Sample Data/CQI_FFV/CQI_FFV_sample.txt' V1='4' name='/root'>
       <elemNode t='167' idref='7'/>
       <structNode t='150' idref='1'/>
     </child>
